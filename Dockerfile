@@ -1,6 +1,6 @@
 FROM jenkins/jenkins:2.112
 USER root
-RUN apt-get update && apt-get install -y make git openjdk-8-jdk ruby
+RUN apt-get update && apt-get install -y make git openjdk-8-jdk
 RUN mkdir /srv/backup && chown jenkins:jenkins /srv/backup
 USER jenkins
 RUN echo 2.112 > /usr/share/jenkins/ref/jenkins.install.UpgradeWizard.state
