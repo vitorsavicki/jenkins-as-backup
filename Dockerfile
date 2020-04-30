@@ -9,3 +9,5 @@ COPY plugins.txt /usr/share/jenkins/ref/plugins.txt
 RUN /usr/local/bin/install-plugins.sh < /usr/share/jenkins/ref/plugins.txt
 ENV JAVA_HOME /usr/lib/jvm/java-8-openjdk-amd64
 COPY --chown=jenkins:jenkins config_jenkins /var/jenkins_home
+ENTRYPOINT []
+CMD /sbin/tini -s -- /usr/local/bin/jenkins.sh --httpPort=$PORT
