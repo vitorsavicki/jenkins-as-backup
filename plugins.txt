@@ -40,3 +40,4 @@ credentials:latest
 plain-credentials:latest
 htmlpublisher:latest
 mailer:latest
+workflow-aggregator:latest
