@@ -50,7 +50,7 @@
       <registry plugin="docker-commons@1.16"/>
     </org.jenkinsci.plugins.docker.workflow.declarative.FolderConfig>
     <jenkins.branch.NoTriggerOrganizationFolderProperty>
-      <branches>.*</branches>
+      <branches>(.*)</branches>
     </jenkins.branch.NoTriggerOrganizationFolderProperty>
   </properties>
   <folderViews class="jenkins.branch.OrganizationFolderViewHolder">
@@ -81,16 +81,16 @@
       <repoOwner>vitor-savicki</repoOwner>
       <credentialsId>e7e8bdf4-28d1-41ae-b9f8-0ef5d9cecd7d</credentialsId>
       <traits>
-        <jenkins.scm.impl.trait.WildcardSCMSourceFilterTrait plugin="scm-api@2.6.3">
-          <includes>production master stage integration </includes>
-          <excludes></excludes>
-        </jenkins.scm.impl.trait.WildcardSCMSourceFilterTrait>
         <org.jenkinsci.plugins.github__branch__source.BranchDiscoveryTrait>
           <strategyId>1</strategyId>
         </org.jenkinsci.plugins.github__branch__source.BranchDiscoveryTrait>
         <org.jenkinsci.plugins.github__branch__source.OriginPullRequestDiscoveryTrait>
           <strategyId>2</strategyId>
         </org.jenkinsci.plugins.github__branch__source.OriginPullRequestDiscoveryTrait>
+        <jenkins.scm.impl.trait.WildcardSCMHeadFilterTrait plugin="scm-api@2.6.3">
+          <includes>production master stage integration</includes>
+          <excludes></excludes>
+        </jenkins.scm.impl.trait.WildcardSCMHeadFilterTrait>
         <jenkins.plugins.git.traits.CloneOptionTrait plugin="git@4.2.2">
           <extension class="hudson.plugins.git.extensions.impl.CloneOption">
             <shallow>false</shallow>

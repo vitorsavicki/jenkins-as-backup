@@ -1,4 +1,6 @@
+FROM node as nodejs
 FROM jenkins/jenkins:latest
+COPY --from=nodejs /usr/local/bin/node /usr/local/bin/node
 USER root
 RUN apt-get update && apt-get install -y make git openjdk-8-jdk
 RUN mkdir /srv/backup && chown jenkins:jenkins /srv/backup

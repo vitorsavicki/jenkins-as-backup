@@ -41,3 +41,5 @@ plain-credentials:latest
 htmlpublisher:latest
 mailer:latest
 workflow-aggregator:latest
+cloudbees-folder:latest
+nodejs:latest
