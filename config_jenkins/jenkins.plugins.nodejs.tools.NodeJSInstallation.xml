@@ -2,13 +2,13 @@
 <jenkins.plugins.nodejs.tools.NodeJSInstallation_-DescriptorImpl plugin="nodejs@1.3.5">
   <installations class="jenkins.plugins.nodejs.tools.NodeJSInstallation-array">
     <jenkins.plugins.nodejs.tools.NodeJSInstallation>
-      <name>node-8.1.3</name>
+      <name>node</name>
       <properties>
         <hudson.tools.InstallSourceProperty>
           <installers>
             <jenkins.plugins.nodejs.tools.NodeJSInstaller>
-              <id>8.1.3</id>
-              <npmPackagesRefreshHours>72</npmPackagesRefreshHours>
+              <id>14.1.0</id>
+              <npmPackagesRefreshHours>0</npmPackagesRefreshHours>
               <force32Bit>false</force32Bit>
             </jenkins.plugins.nodejs.tools.NodeJSInstaller>
           </installers>

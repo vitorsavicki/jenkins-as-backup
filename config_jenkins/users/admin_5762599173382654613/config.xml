@@ -11,7 +11,14 @@
       </tokenStore>
     </jenkins.security.ApiTokenProperty>
     <com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty plugin="credentials@2.3.7">
-      <domainCredentialsMap class="hudson.util.CopyOnWriteMap$Hash"/>
+      <domainCredentialsMap class="hudson.util.CopyOnWriteMap$Hash">
+        <entry>
+          <com.cloudbees.plugins.credentials.domains.Domain>
+            <specifications/>
+          </com.cloudbees.plugins.credentials.domains.Domain>
+          <java.util.concurrent.CopyOnWriteArrayList/>
+        </entry>
+      </domainCredentialsMap>
     </com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty>
     <hudson.tasks.Mailer_-UserProperty plugin="mailer@1.32">
       <emailAddress></emailAddress>
@@ -44,13 +51,13 @@
       <collapsed/>
     </hudson.model.PaneStatusProperties>
     <hudson.security.HudsonPrivateSecurityRealm_-Details>
-      <passwordHash>#jbcrypt:$2a$10$0bRJhhaejf2gnR4Mupsnd./kh9XmmHk7SLfnmtToHUlqtrrG1y0ua</passwordHash>
+      <passwordHash>#jbcrypt:$2a$10$2XOkEJ/UgXHMASoTbaNX/eWptl5D8yXl9.bSqmEmQr7fv59N4luoS</passwordHash>
     </hudson.security.HudsonPrivateSecurityRealm_-Details>
     <org.jenkinsci.main.modules.cli.auth.ssh.UserPropertyImpl>
       <authorizedKeys></authorizedKeys>
     </org.jenkinsci.main.modules.cli.auth.ssh.UserPropertyImpl>
     <jenkins.security.seed.UserSeedProperty>
-      <seed>af3b88891e696650</seed>
+      <seed>f1c2dd2a09903178</seed>
     </jenkins.security.seed.UserSeedProperty>
     <hudson.search.UserSearchProperty>
       <insensitiveSearch>true</insensitiveSearch>

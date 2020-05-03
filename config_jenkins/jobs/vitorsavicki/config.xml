@@ -33,13 +33,19 @@
               <id>cd0509f0-56c5-4484-a659-b98f786b9cb2</id>
               <description></description>
               <username>vitorsavicki</username>
-              <password>{AQAAABAAAAAgbx2+RPAgV2i7K/R6pHCMDqah6tZt3NmFlWB93UNZUc79UUunYVv1trLfWzw7bJYR}</password>
+              <password>{AQAAABAAAABQ0wsHG01GNc/twLhb9at4zevDpfdfXv777i+M46FcqZq3VTosVERJiRs90X4oaqv/ain7GNZhIgQZrM2b3Z+uKAEU6+KTIuW4F9ieAoTeYcj3iWC2BPMOizSHpQ0CyqNB}</password>
             </com.cloudbees.plugins.credentials.impl.UsernamePasswordCredentialsImpl>
             <com.cloudbees.plugins.credentials.impl.UsernamePasswordCredentialsImpl plugin="credentials@2.3.7">
               <id>e7e8bdf4-28d1-41ae-b9f8-0ef5d9cecd7d</id>
               <description></description>
               <username>vitorsavicki</username>
-              <password>{AQAAABAAAAAQXcOzo+uzCFlqCuR3FVEwMyqNm2B2XPNUHtLBNDrOZbk=}</password>
+              <password>{AQAAABAAAABAn7CPKbT91tIHasUEEZyiu1418hiy5vQEzH9wpibK4EjKZBVpKYKVR06vqV8pLcucytBmtTmTKFPSAJTpgwC7z3q7J4RckouIwkbxVZOWrEg=}</password>
+            </com.cloudbees.plugins.credentials.impl.UsernamePasswordCredentialsImpl>
+            <com.cloudbees.plugins.credentials.impl.UsernamePasswordCredentialsImpl plugin="credentials@2.3.7">
+              <id>eba9e20c-895a-4220-b49c-9447982ed575</id>
+              <description></description>
+              <username>vitorsavicki</username>
+              <password>{AQAAABAAAAAQnGiGTLUNfxQsFk4x9hXgUgE5uXYbDB6GJNvLHAm7iR4=}</password>
             </com.cloudbees.plugins.credentials.impl.UsernamePasswordCredentialsImpl>
           </java.util.concurrent.CopyOnWriteArrayList>
         </entry>
@@ -79,7 +85,7 @@
   <navigators>
     <org.jenkinsci.plugins.github__branch__source.GitHubSCMNavigator plugin="github-branch-source@2.7.1">
       <repoOwner>vitor-savicki</repoOwner>
-      <credentialsId>e7e8bdf4-28d1-41ae-b9f8-0ef5d9cecd7d</credentialsId>
+      <credentialsId>eba9e20c-895a-4220-b49c-9447982ed575</credentialsId>
       <traits>
         <org.jenkinsci.plugins.github__branch__source.BranchDiscoveryTrait>
           <strategyId>1</strategyId>
