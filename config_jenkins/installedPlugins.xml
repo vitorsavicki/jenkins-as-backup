@@ -14,12 +14,20 @@
       <string>1.0</string>
     </entry>
     <entry>
+      <string>influxdb</string>
+      <string>2.3</string>
+    </entry>
+    <entry>
       <string>blueocean-pipeline-api-impl</string>
-      <string>1.23.1</string>
+      <string>1.23.2</string>
     </entry>
     <entry>
       <string>workflow-multibranch</string>
       <string>2.21</string>
+    </entry>
+    <entry>
+      <string>robot</string>
+      <string>2.1.1</string>
     </entry>
     <entry>
       <string>docker-workflow</string>
@@ -51,7 +59,7 @@
     </entry>
     <entry>
       <string>github</string>
-      <string>1.29.5</string>
+      <string>1.30.0</string>
     </entry>
     <entry>
       <string>windows-slaves</string>
@@ -60,6 +68,10 @@
     <entry>
       <string>parameterized-trigger</string>
       <string>2.36</string>
+    </entry>
+    <entry>
+      <string>zap</string>
+      <string>1.1.0</string>
     </entry>
     <entry>
       <string>mailer</string>
@@ -71,7 +83,7 @@
     </entry>
     <entry>
       <string>blueocean-web</string>
-      <string>1.23.1</string>
+      <string>1.23.2</string>
     </entry>
     <entry>
       <string>workflow-scm-step</string>
@@ -103,7 +115,7 @@
     </entry>
     <entry>
       <string>blueocean-rest</string>
-      <string>1.23.1</string>
+      <string>1.23.2</string>
     </entry>
     <entry>
       <string>pipeline-stage-view</string>
@@ -147,7 +159,7 @@
     </entry>
     <entry>
       <string>blueocean-pipeline-editor</string>
-      <string>1.23.1</string>
+      <string>1.23.2</string>
     </entry>
     <entry>
       <string>ssh-credentials</string>
@@ -187,11 +199,11 @@
     </entry>
     <entry>
       <string>blueocean-commons</string>
-      <string>1.23.1</string>
+      <string>1.23.2</string>
     </entry>
     <entry>
       <string>script-security</string>
-      <string>1.71</string>
+      <string>1.72</string>
     </entry>
     <entry>
       <string>mercurial</string>
@@ -203,15 +215,15 @@
     </entry>
     <entry>
       <string>blueocean-dashboard</string>
-      <string>1.23.1</string>
+      <string>1.23.2</string>
     </entry>
     <entry>
       <string>blueocean-core-js</string>
-      <string>1.23.1</string>
+      <string>1.23.2</string>
     </entry>
     <entry>
       <string>blueocean-github-pipeline</string>
-      <string>1.23.1</string>
+      <string>1.23.2</string>
     </entry>
     <entry>
       <string>pipeline-milestone-step</string>
@@ -219,7 +231,7 @@
     </entry>
     <entry>
       <string>blueocean-jwt</string>
-      <string>1.23.1</string>
+      <string>1.23.2</string>
     </entry>
     <entry>
       <string>trilead-api</string>
@@ -263,7 +275,7 @@
     </entry>
     <entry>
       <string>blueocean-rest-impl</string>
-      <string>1.23.1</string>
+      <string>1.23.2</string>
     </entry>
     <entry>
       <string>build-pipeline-plugin</string>
@@ -283,11 +295,11 @@
     </entry>
     <entry>
       <string>blueocean-git-pipeline</string>
-      <string>1.23.1</string>
+      <string>1.23.2</string>
     </entry>
     <entry>
       <string>credentials-binding</string>
-      <string>1.22</string>
+      <string>1.23</string>
     </entry>
     <entry>
       <string>workflow-aggregator</string>
@@ -299,7 +311,7 @@
     </entry>
     <entry>
       <string>blueocean-pipeline-scm-api</string>
-      <string>1.23.1</string>
+      <string>1.23.2</string>
     </entry>
     <entry>
       <string>nodejs</string>
@@ -363,11 +375,11 @@
     </entry>
     <entry>
       <string>blueocean-bitbucket-pipeline</string>
-      <string>1.23.1</string>
+      <string>1.23.2</string>
     </entry>
     <entry>
       <string>htmlpublisher</string>
-      <string>1.22</string>
+      <string>1.23</string>
     </entry>
     <entry>
       <string>handy-uri-templates-2-api</string>
@@ -375,7 +387,7 @@
     </entry>
     <entry>
       <string>cloudbees-bitbucket-branch-source</string>
-      <string>2.7.0</string>
+      <string>2.8.0</string>
     </entry>
     <entry>
       <string>display-url-api</string>
@@ -387,7 +399,7 @@
     </entry>
     <entry>
       <string>jenkins-design-language</string>
-      <string>1.23.1</string>
+      <string>1.23.2</string>
     </entry>
     <entry>
       <string>pipeline-model-declarative-agent</string>
